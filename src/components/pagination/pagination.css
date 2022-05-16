@@ -1,0 +1,46 @@
+.control {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px 40px 12px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 24px;
+  color: #474955;
+
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+button:disabled:hover {
+  cursor: not-allowed;
+}
+
+.pagination {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.page + .page {
+  margin-left: 7px;
+}
+
+.page:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.page.active {
+  color: #7ebc3c;
+}

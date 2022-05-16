@@ -1,0 +1,19 @@
+.input-container {
+  width: 50%;
+
+  padding: 14px;
+  background: #5a5c66;
+}
+
+.input-container input {
+  width: 80%;
+
+  border: 0;
+  outline: none;
+  background: #5a5c66;
+
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b2b7bf;
+}
